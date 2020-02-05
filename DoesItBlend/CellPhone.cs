@@ -8,9 +8,9 @@ namespace DoesItBlend
     /// A class representing a cell phone
     /// </summary>
     /// <summary>
-    public class CellPhone
+    public class CellPhone : IBlendable
     {
-        /// Blends the ice cubes
+        /// Blends the cell phone
         /// </summary>
         /// <returns>The result of blending the cell phone</returns>
         public string Blend()
